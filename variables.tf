@@ -196,7 +196,3 @@ variable "mem_limit" {
   description = "The memory limit allowed for the lagom application container. When using Java 11+ based images, the JVM will detect the upper memory limit and adjust the relative size available. See "
   default = "750Mi"
 }
-
-variable "kube_config" {
-  type = string
-}
